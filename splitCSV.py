@@ -47,7 +47,7 @@ def Data_split(filename,file_num,header=True):
                  print('保存第{0}个数据'.format(i))
                  i+=1
  
-filename='/home/zhuangzhigao/Desktop/DataSet/ukbb_data/main_data/csv/ukb670300.csv'
+filename='your csv files'
 #num为拆分为的文件个数
 num=35
 Data_split(filename,num,header=True)
